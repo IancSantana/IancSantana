@@ -1,41 +1,36 @@
 name: Generate Datas
 
 on:
-  schedule: 
+  schedule:
     # Executa a cada 12 horas
     - cron: "0 */12 * * *"
   workflow_dispatch:
-  # Opcional: também executa toda vez que você fizer um push no README
   push:
     branches:
-    - main
-    - master
+      - main
+      - master
 
 jobs:
   build:
     name: Jobs to update datas
     runs-on: ubuntu-latest
-    
-    # ESSENCIAL: Permite que a action faça o commit do arquivo gerado
+
     permissions:
       contents: write
 
     steps:
-      # Step 1: Gera a animação da cobrinha
+      # Step 1: Gera os arquivos da cobrinha (modo claro e escuro)
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk@v3
         with:
-          # Pega o seu nome de usuário automaticamente (IancSantana)
           github_user_name: ${{ github.repository_owner }}
-          
-          # Arquivos de saída (agora suporta versão clara e escura!)
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # Step 2: Salva os arquivos na branch 'output'
+      # Step 2: Publica os arquivos gerados na branch 'output'
       - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
