@@ -1,7 +1,7 @@
 <div align="center">
   <!-- Animação de cabeçalho estilo digitação -->
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=BD93F9&center=true&vCenter=true&width=500&lines=Ol%C3%A1!+Meu-Nome+%C3%A9+Ianc+Santana+👋;Cientista+de+Dados+%7C+Data+Scientist+📊;Transformando+dados+em+insights+💡" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=BD93F9&center=true&vCenter=true&width=500&lines=Ol%C3%A1!+Meu+Nome+%C3%A9+Ianc+Santana+%F0%9F%91%8B;Cientista+de+Dados+%7C+Data+Scientist+%F0%9F%93%8A;Transformando+dados+em+insights+%F0%9F%92%A1" alt="Typing SVG" />
   </a>
 </div>
 
