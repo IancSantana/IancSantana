@@ -72,7 +72,9 @@
 ---
 
 
-https://github.com/user-attachments/assets/a6091d28-880f-4104-be3a-884857db61aa
+<video autoplay loop muted playsinline width="100%">
+  <source src="https://github.com/user-attachments/assets/a6091d28-880f-4104-be3a-884857db61aa" type="video/mp4">
+</video>
 
 
 ### 📬 Conecte-se comigo
