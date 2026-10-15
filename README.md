@@ -49,32 +49,6 @@
 
 ---
 
-### 🏆 Troféus do GitHub
-
-<div align="center">
-  <a href="https://github.com/ryo-ma/github-profile-trophy">
-    <img src="https://github-profile-trophy.vercel.app/?username=IancSantana&theme=dracula&no-frame=true&v=1" alt="Troféus" />
-  </a>
-</div>
-
----
-
-### 🐍 Minhas Contribuições
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IancSantana/IancSantana/output/dist/github-contribution-grid-snake-dark.svg?v=1">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IancSantana/IancSantana/output/dist/github-contribution-grid-snake.svg?v=1">
-    <img alt="Animação da Cobrinha de Contribuições" src="https://raw.githubusercontent.com/IancSantana/IancSantana/output/dist/github-contribution-grid-snake.svg?v=1">
-  </picture>
-</div>
-
----
-
-<video autoplay loop muted playsinline width="100%">
-  <source src="https://github.com/user-attachments/assets/a6091d28-880f-4104-be3a-884857db61aa" type="video/mp4">
-</video>
-
 ### 📬 Conecte-se comigo
 
 <div align="center">
