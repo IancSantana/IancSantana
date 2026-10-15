@@ -2,7 +2,11 @@
   - Olá, Meu nome é Ianc Santana e sou um Cientista de Dados :D
 
 
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IancSantana/IancSantana/output/dist/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IancSantana/IancSantana/output/dist/github-contribution-grid-snake.svg">
+  <img alt="GitHub Snake" src="https://raw.githubusercontent.com/IancSantana/IancSantana/output/dist/github-contribution-grid-snake.svg">
+</picture>
 
 
 ![Snake animation](https://github.com/IancSantana/IancSantana/blob/output/github-contribution-grid-snake.svg)
