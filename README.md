@@ -41,36 +41,4 @@
 ### 📊 Estatísticas do GitHub
 
 <div align="center">
-  <a href="https://github.com/IancSantana">
-    <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IancSantana&layout=compact&langs_count=7&theme=dracula&hide_border=true" alt="Linguagens mais usadas" />
-    <img height="185" src="https://github-readme-stats.vercel.app/api?username=IancSantana&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" alt="Estatísticas do GitHub" />
-  </a>
-</div>
-
----
-
-### 🐍 Minhas Contribuições
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/IancSantana/IancSantana/output/dist/github-contribution-grid-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/IancSantana/IancSantana/output/dist/github-contribution-grid-snake.svg">
-    <img alt="Animação da Cobrinha de Contribuições" src="https://raw.githubusercontent.com/IancSantana/IancSantana/output/dist/github-contribution-grid-snake.svg">
-  </picture>
-</div>
-
----
-
-### 📬 Conecte-se comigo
-
-<div align="center">
-  <a href="https://www.linkedin.com/in/iancsantanadev" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://www.kaggle.com/iancsantanadev" target="_blank">
-    <img src="https://img.shields.io/badge/Kaggle-20BEFF?style=for-the-badge&logo=Kaggle&logoColor=white" alt="Kaggle" />
-  </a>
-  <a href="mailto:iancbt28@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</div>
+  <a href="
