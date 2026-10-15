@@ -52,8 +52,8 @@
 ### 🏆 Troféus do GitHub
 
 <div align="center">
-  <a href="https://github.com/IancSantana">
-    <img src="https://github-profile-trophy.vercel.app/?username=IancSantana&theme=dracula&column=7&margin-w=15&margin-h=15" alt="Troféus do GitHub" />
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=IancSantana&theme=dracula&no-frame=true" alt="Troféus" />
   </a>
 </div>
 
@@ -71,11 +71,9 @@
 
 ---
 
-
 <video autoplay loop muted playsinline width="100%">
   <source src="https://github.com/user-attachments/assets/a6091d28-880f-4104-be3a-884857db61aa" type="video/mp4">
 </video>
-
 
 ### 📬 Conecte-se comigo
 
