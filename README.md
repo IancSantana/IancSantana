@@ -3,9 +3,6 @@
 
 
 
-
-
-
 ![Snake animation](https://github.com/IancSantana/IancSantana/blob/output/github-contribution-grid-snake.svg)
 
 
