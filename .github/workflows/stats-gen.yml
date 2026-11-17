@@ -36,10 +36,3 @@ jobs:
           commit_message: "Update GitHub stats SVGs automatically"
           branch: main
           file_pattern: stats/*.svg
-```[cite: 1]
-
-### O que mudou nesta versão:
-* **Geração direta via `curl`**: Em vez de depender de uma action externa que pode falhar ou estar desatualizada, o script descarrega os SVGs diretamente das APIs oficiais e guarda-os numa pasta chamada `stats/`.
-* **`file_pattern` definido**: O `git-auto-commit-action` agora sabe exatamente quais ficheiros deve procurar e enviar para o repositório (`stats/*.svg`).
-
-Após atualizar o ficheiro no GitHub, vá até à aba **Actions**, selecione o workflow **Generate GitHub Stats** e clique em **Run workflow** para testar a execução.
