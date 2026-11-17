@@ -1,0 +1,38 @@
+name: Generate GitHub Stats
+
+on:
+  schedule:
+    # Executa automaticamente a cada 24 horas
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate GitHub Readme Stats
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          username: IancSantana
+          theme: dracula
+          show_icons: true
+          include_all_commits: true
+          count_private: true
+          hide_border: true
+
+      - name: Commit and push generated stats
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update GitHub stats SVGs"
+          branch: main
