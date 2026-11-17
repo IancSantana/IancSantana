@@ -49,7 +49,7 @@
 
 ### 📊 Estatísticas do GitHub
 
-![Estatísticas do LeetCode de IancSantana](https://leetcode-badge-sage.vercel.app/badge/IancSantana?theme=dark&bgColor=282828)
+![Estatísticas do LeetCode de IancSantana](https://leetcode-badge-sage.vercel.app/badge/Ianc7l?theme=dark&bgColor=282828)
 
 ---
 
