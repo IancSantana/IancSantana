@@ -2,7 +2,6 @@ name: Generate GitHub Stats
 
 on:
   schedule:
-    # Executa automaticamente a cada 24 horas
     - cron: "0 0 * * *"
   workflow_dispatch:
   push:
@@ -14,25 +13,33 @@ permissions:
   contents: write
 
 jobs:
-  generate:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Readme Stats
-        uses: readme-tools/github-readme-stats-action@v1
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          username: IancSantana
-          theme: dracula
-          show_icons: true
-          include_all_commits: true
-          count_private: true
-          hide_border: true
+          node-version: 20
+
+      - name: Generate Stats SVGs
+        run: |
+          mkdir -p stats
+          curl -s "https://github-readme-stats.vercel.app/api?username=IancSantana&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true" -o stats/stats.svg
+          curl -s "https://github-readme-stats.vercel.app/api/top-langs/?username=IancSantana&layout=compact&langs_count=7&theme=dracula&hide_border=true" -o stats/top-langs.svg
 
       - name: Commit and push generated stats
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update GitHub stats SVGs"
+          commit_message: "Update GitHub stats SVGs automatically"
           branch: main
+          file_pattern: stats/*.svg
+```[cite: 1]
+
+### O que mudou nesta versão:
+* **Geração direta via `curl`**: Em vez de depender de uma action externa que pode falhar ou estar desatualizada, o script descarrega os SVGs diretamente das APIs oficiais e guarda-os numa pasta chamada `stats/`.
+* **`file_pattern` definido**: O `git-auto-commit-action` agora sabe exatamente quais ficheiros deve procurar e enviar para o repositório (`stats/*.svg`).
+
+Após atualizar o ficheiro no GitHub, vá até à aba **Actions**, selecione o workflow **Generate GitHub Stats** e clique em **Run workflow** para testar a execução.
