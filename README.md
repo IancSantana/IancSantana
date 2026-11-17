@@ -50,10 +50,8 @@
 ### 📊 Estatísticas & Conquistas
 
 <div align="center">
-  <a href="https://github.com/IancSantana">
-    <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IancSantana&layout=compact&langs_count=7&theme=dracula&hide_border=true&cache_seconds=86400" alt="Linguagens mais usadas" />
-    <img height="185" src="https://github-readme-stats.vercel.app/api?username=IancSantana&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400" alt="Estatísticas do GitHub" />
-  </a>
+  <img src="./path-to-stats/top-langs.svg" alt="Linguagens mais usadas" />
+  <img src="./path-to-stats/stats.svg" alt="Estatísticas do GitHub" />
 </div>
 
 ---
