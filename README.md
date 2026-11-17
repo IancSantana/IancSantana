@@ -46,10 +46,13 @@
 ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 ---
+### 📊 Estatísticas do GitHub
 
-### 📊 Estatísticas & Conquistas
+<div align="center">
+  <img src="./stats/top-langs.svg" alt="Linguagens mais usadas" />
+  <img src="./stats/stats.svg" alt="Estatísticas do GitHub" />
+</div>
 
-[![.github/workflows/stats-gen.yml](https://github.com/IancSantana/IancSantana/actions/workflows/stats-gen.yml/badge.svg)](https://github.com/IancSantana/IancSantana/actions/workflows/stats-gen.yml)
 ---
 
 ### 📬 Conecte-se comigo
