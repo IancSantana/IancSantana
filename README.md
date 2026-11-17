@@ -56,11 +56,6 @@
   </a>
 </div>
 
-<div align="center" style="margin-top: 15px;">
-  <a href="https://leetcode.com/IancSantana">
-    <img src="https://leetcode-badge-sage.vercel.app/badge/IancSantana?theme=dark&bgColor=282828" alt="Estatísticas do LeetCode de IancSantana" />
-  </a>
-</div>
 ---
 
 ### 📬 Conecte-se comigo
