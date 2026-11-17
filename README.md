@@ -47,10 +47,20 @@
 
 ---
 
-### 📊 Estatísticas do GitHub
+### 📊 Estatísticas & Conquistas
 
-![Estatísticas do LeetCode de IancSantana](https://leetcode-badge-sage.vercel.app/badge/Ianc7l?theme=dark&bgColor=282828)
+<div align="center">
+  <a href="https://github.com/IancSantana">
+    <img height="185" src="https://github-readme-stats.vercel.app/api/top-langs/?username=IancSantana&layout=compact&langs_count=7&theme=dracula&hide_border=true&cache_seconds=86400" alt="Linguagens mais usadas" />
+    <img height="185" src="https://github-readme-stats.vercel.app/api?username=IancSantana&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&cache_seconds=86400" alt="Estatísticas do GitHub" />
+  </a>
+</div>
 
+<div align="center" style="margin-top: 15px;">
+  <a href="https://leetcode.com/IancSantana">
+    <img src="https://leetcode-badge-sage.vercel.app/badge/IancSantana?theme=dark&bgColor=282828" alt="Estatísticas do LeetCode de IancSantana" />
+  </a>
+</div>
 ---
 
 ### 📬 Conecte-se comigo
